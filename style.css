@@ -1,4 +1,4 @@
-/* Reset básico */
+/* Reset */
 * {
     margin: 0;
     padding: 0;
@@ -7,16 +7,16 @@
 
 body {
     font-family: 'Allkin', sans-serif;
-    background-color: #0f172a;
-    color: #e2e8f0;
+    background-color: #ffffff;
+    color: #000000;
     line-height: 1.6;
 }
 
 /* NAVBAR */
 header {
-    background: #0b1220;
+    background: #ffffff;
     padding: 20px 40px;
-    border-bottom: 1px solid #1e293b;
+    border-bottom: 1px solid #000000;
 }
 
 .nav {
@@ -28,7 +28,6 @@ header {
 .logo {
     font-weight: bold;
     font-size: 1.2rem;
-    color: #38bdf8;
 }
 
 .nav-list {
@@ -39,13 +38,13 @@ header {
 
 .nav-list a {
     text-decoration: none;
-    color: #cbd5e1;
+    color: #000000;
     font-size: 0.95rem;
     transition: 0.3s ease;
 }
 
 .nav-list a:hover {
-    color: #38bdf8;
+    opacity: 0.6;
 }
 
 /* SEÇÕES */
@@ -59,40 +58,34 @@ section {
 #sobremim h1 {
     font-size: 2.5rem;
     margin-bottom: 20px;
-    color: #38bdf8;
 }
 
 #sobremim p {
     max-width: 700px;
     font-size: 1rem;
-    color: #cbd5e1;
 }
 
 /* SKILLS */
 #skills h2 {
     font-size: 2rem;
     margin-bottom: 40px;
-    color: #38bdf8;
 }
 
 #skills article {
     margin-bottom: 40px;
     padding: 20px;
-    background-color: #111827;
-    border-radius: 10px;
-    border: 1px solid #1e293b;
+    border: 1px solid #000000;
+    border-radius: 6px;
     transition: 0.3s ease;
 }
 
 #skills article:hover {
-    transform: translateY(-5px);
-    border-color: #38bdf8;
+    transform: translateY(-4px);
 }
 
 #skills h3 {
     margin-bottom: 15px;
     font-size: 1.2rem;
-    color: #f1f5f9;
 }
 
 #skills ul {
@@ -101,11 +94,10 @@ section {
 
 #skills li {
     margin-bottom: 8px;
-    color: #cbd5e1;
     font-size: 0.95rem;
 }
 
-/* RESPONSIVIDADE */
+/* RESPONSIVO */
 @media (max-width: 768px) {
     .nav {
         flex-direction: column;
