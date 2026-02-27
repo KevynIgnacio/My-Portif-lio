@@ -56,13 +56,13 @@ section {
 
 /* SOBRE */
 #sobremim h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
     margin-bottom: 20px;
 }
 
 #sobremim p {
     max-width: 700px;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 /* SKILLS */
@@ -119,38 +119,48 @@ section {
 }
 
 /* CONTATO */
+
+
 #contato h2 {
     font-size: 2rem;
     margin-bottom: 30px;
 }
 
 #contato article {
+    margin-bottom: 40px;
+    padding: 20px;
     border: 1px solid #000000;
     border-radius: 6px;
-    padding: 30px;
-    max-width: 700px;
+    transition: 0.3s ease;
 }
 
 #contato p {
     margin-bottom: 20px;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 #contato ul {
     list-style: none;
+    padding: 0;
 }
 
 #contato li {
-    margin-bottom: 12px;
-    font-size: 0.95rem;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 #contato a {
     text-decoration: none;
-    color: #000000;
-    transition: 0.3s ease;
+    color: inherit;
 }
 
 #contato a:hover {
     opacity: 0.6;
+}
+
+#contato i {
+    font-size: 1rem,
+    padding: 5px;
 }
