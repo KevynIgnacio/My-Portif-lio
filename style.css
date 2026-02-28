@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: 'Allkin', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     background-color: #ffffff;
     color: #000000;
     line-height: 1.6;
@@ -15,7 +15,7 @@ body {
 /* NAVBAR */
 header {
     background: #ffffff;
-    padding: 20px 40px;
+    padding: 30px 40px;
     border-bottom: 1px solid #000000;
 }
 
@@ -27,19 +27,19 @@ header {
 
 .logo {
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 .nav-list {
     list-style: none;
     display: flex;
-    gap: 30px;
+    gap: 50px;
 }
 
 .nav-list a {
     text-decoration: none;
     color: #000000;
-    font-size: 0.95rem;
+    font-size: 1,2rem;
     transition: 0.3s ease;
 }
 
@@ -57,12 +57,19 @@ section {
 /* SOBRE */
 #sobremim h1 {
     font-size: 3rem;
-    margin-bottom: 20px;
+    margin-bottom: 200px;
+    margin-top: 100px;
 }
 
 #sobremim p {
-    max-width: 700px;
-    font-size: 1.2rem;
+    max-width: 1000px;
+    font-size: 1.3rem;
+    margin-bottom: 40px;
+    padding: 50px;
+    border: 1px solid #000000;
+    border-radius: 6px;
+    transition: 0.3s ease;
+    
 }
 
 /* SKILLS */
@@ -94,11 +101,11 @@ section {
 
 #skills li {
     margin-bottom: 8px;
-    font-size: 0.95rem;
+    font-size: 1rem;
 }
 
 /* RESPONSIVO */
-@media (max-width: 768px) {
+@media (max-width: 780px) {
     .nav {
         flex-direction: column;
         gap: 15px;
@@ -162,5 +169,5 @@ section {
 
 #contato i {
     font-size: 1rem,
-    padding: 5px;
+    padding 5px;
 }
