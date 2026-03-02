@@ -39,7 +39,7 @@ header {
 .nav-list a {
     text-decoration: none;
     color: #000000;
-    font-size: 1,2rem;
+    font-size: 1.2rem;
     transition: 0.3s ease;
 }
 
@@ -55,10 +55,11 @@ section {
 }
 
 /* SOBRE */
+
+
 #sobremim h1 {
     font-size: 3rem;
-    margin-bottom: 200px;
-    margin-top: 100px;
+    margin-bottom: 30px;
 }
 
 #sobremim p {
@@ -70,6 +71,49 @@ section {
     border-radius: 6px;
     transition: 0.3s ease;
     
+}
+
+
+.welcome-linha {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 300px;
+    margin-top: 80px;
+}
+
+.welcome-linha h1 {
+    font-size: 3rem;
+}
+
+.sobre-imagem img {
+    width: 100%;
+    max-width: 300px;
+}
+
+.sobre-texto {
+    max-width: 700px;
+}
+
+.sobre-texto p {
+    font-size: 1.3rem;
+    padding: 40px;
+    border: 1px solid #000;
+    border-radius: 6px;
+   
+}
+
+
+
+.sobre-imagem img {
+    width: 100%;
+    max-width: 350px;
+    border-radius: 12px;
+}
+
+/* Efeito leve ao passar o mouse */
+.sobre-imagem img:hover {
+    transform: scale(1.03);
 }
 
 /* SKILLS */
@@ -168,6 +212,6 @@ section {
 }
 
 #contato i {
-    font-size: 1rem,
-    padding 5px;
+    font-size: 1rem;
+    padding: 5px;
 }
